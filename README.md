@@ -56,15 +56,7 @@ Ensure you have the following installed:
 - Firebase account
 
 ### Installation
-
-1. Clone the repository:
-   bash
-   git clone https://github.com/rishabhgupta2004/HOMEHEAVEN.git
-   cd homeheaven
-   git clone https://github.com/Deepanshishukla24/HOMEHEAVEN.git
-   
-
-2. Install the dependencies for both the client and server:
+1. Install the dependencies for both the client and server:
    bash
    cd client
    npm install
@@ -72,7 +64,7 @@ Ensure you have the following installed:
    npm install
    
 
-3. Set up environment variables:
+2. Set up environment variables:
 
    Create a .env file in the server directory and add your MongoDB URI and JWT secret:
 
@@ -83,13 +75,13 @@ Ensure you have the following installed:
 
    Create a .env file in the client directory and add your Firebase configuration:
 
-   plaintext
+  pl aintext
    REACT_APP_FIREBASE_API_KEY=your_api_key
    REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
    REACT_APP_FIREBASE_PROJECT_ID=your_project_id
    REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-   REACT_APP_FIREBASE_APP_ID=your_app_id
+   REACT_APP_FIREBASE_APP_ID=y
    
 
 ### Running the Application
